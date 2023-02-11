@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  overflow: hidden;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg{
+  background: 
+    url(../img/drums-7751985.jpg) no-repeat center center/cover ;
+  width: 100vw;  
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.loading-text{
+  font-size: 40px;
+  color: white;
+}
